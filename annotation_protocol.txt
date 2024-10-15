@@ -1,0 +1,10 @@
+We would like to evaluate the ability of LLMs to generate workflows based on existing components and libraries. In this experiment we are assuming that we have a Knowledge Base of components and the supported libraries below. Please spend 5 minutes reading the list of components.
+Given the list of components and libraries, write intent statements which create a new workflow, containing more than two components.
+Please note that you can create workflows strictly based on existing components or you can expound it with custom components. A typical workflow would be of the second type.
+Constraints:
+-Please diversify in terms of workflow complexity (shorter or longer statements/workflows).
+-Please communicate with different levels of detail and specificity.
+-Please diversify in terms of components and library functions being used.
+-All workflows should end with a deterministic output:
+   -Example: ‘Create a workflow that reads a PDF report and outputs its conclusion section.’
+   -Counter-example: ‘Create a workflow that reads a PDF report and outputs a summary of it.’
